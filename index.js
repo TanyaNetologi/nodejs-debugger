@@ -1,5 +1,6 @@
 const func = () => {
   const sum = (a, b) => a + b;
+  const test = 100;
   let x = 10;
   let y = 20;
 

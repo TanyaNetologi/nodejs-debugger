@@ -10,6 +10,9 @@ export default defineConfig([
     languageOptions: { globals: globals.node },
     rules: {
       "no-debugger": "off",
+      semi: ["error", "always"],
+      eqeqeq: "error",
+      "no-unused-vars": "error",
     },
   },
   {
